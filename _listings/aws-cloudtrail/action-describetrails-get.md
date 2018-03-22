@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTrails&k=1:
+  /?Action=DescribeTrails:
     get:
       summary: Describe Trails
       description: Retrieves settings for the trail associated with the current region
