@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopLogging&k=1:
+  /?Action=StopLogging:
     get:
       summary: Stop Logging
       description: Suspends the recording of AWS API calls and log file delivery for
