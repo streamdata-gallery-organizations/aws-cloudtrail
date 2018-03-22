@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetEventSelectors&k=1:
+  /?Action=GetEventSelectors:
     get:
       summary: Get Event Selectors
       description: Describes the settings for the event selectors that you configured
