@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetTrailStatus&k=1:
+  /?Action=GetTrailStatus:
     get:
       summary: Get Trail Status
       description: Returns a JSON-formatted list of information about the specified
