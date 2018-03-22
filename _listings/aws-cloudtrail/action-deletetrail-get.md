@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteTrail&k=1:
+  /?Action=DeleteTrail:
     get:
       summary: Delete Trail
       description: Deletes a trail
