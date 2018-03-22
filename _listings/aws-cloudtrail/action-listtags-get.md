@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTags&k=1:
+  /?Action=ListTags:
     get:
       summary: List Tags
       description: Lists the tags for the trail in the current region
