@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutEventSelectors&k=1:
+  /?Action=PutEventSelectors:
     get:
       summary: Put Event Selectors
       description: Configures an event selector for your trail
