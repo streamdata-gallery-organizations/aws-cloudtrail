@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartLogging&k=1:
+  /?Action=StartLogging:
     get:
       summary: Start Logging
       description: Starts the recording of AWS API calls and log file delivery for
