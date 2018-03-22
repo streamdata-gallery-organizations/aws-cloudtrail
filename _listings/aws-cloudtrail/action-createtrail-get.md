@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateTrail&k=1:
+  /?Action=CreateTrail:
     get:
       summary: Create Trail
       description: Creates a trail that specifies the settings for delivery of log
