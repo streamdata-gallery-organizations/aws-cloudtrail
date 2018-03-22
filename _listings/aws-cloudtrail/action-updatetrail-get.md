@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateTrail&k=1:
+  /?Action=UpdateTrail:
     get:
       summary: Update Trail
       description: Updates the settings that specify delivery of log files
