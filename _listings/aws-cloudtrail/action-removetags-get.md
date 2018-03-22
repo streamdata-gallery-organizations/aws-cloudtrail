@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveTags&k=1:
+  /?Action=RemoveTags:
     get:
       summary: Remove Tags
       description: Removes the specified tags from a trail
