@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListPublicKeys&k=1:
+  /?Action=ListPublicKeys:
     get:
       summary: List Public Keys
       description: Returns all public keys whose private keys were used to sign the
