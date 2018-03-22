@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=LookupEvents&k=1:
+  /?Action=LookupEvents:
     get:
       summary: Lookup Events
       description: |-
