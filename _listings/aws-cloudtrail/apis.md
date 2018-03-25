@@ -17,8 +17,8 @@ tags:
 - Logging
 - Analysis
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-cloudtrail/master/_listings/aws-cloudtrail/apis.yaml
 specificationVersion: "0.14"
 apis:
